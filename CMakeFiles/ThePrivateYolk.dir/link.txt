@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ThePrivateYolk.dir/ThePrivateYolk.cpp.o -o ThePrivateYolk 
