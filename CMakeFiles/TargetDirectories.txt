@@ -1,3 +1,0 @@
-/home/hacktheegg/Documents/Code/C++/ThePrivateYolk/CMakeFiles/ThePrivateYolk.dir
-/home/hacktheegg/Documents/Code/C++/ThePrivateYolk/CMakeFiles/edit_cache.dir
-/home/hacktheegg/Documents/Code/C++/ThePrivateYolk/CMakeFiles/rebuild_cache.dir
