@@ -18,3 +18,15 @@ int main() {
  *
  * grab recent posts based on userId
 */
+
+
+
+class menuOption {
+  private:
+    bool toggleable;
+    string state;
+  public:
+    void toggle() { }
+    void setState() { }
+    string getState() { return "Unfinished"; }
+};
