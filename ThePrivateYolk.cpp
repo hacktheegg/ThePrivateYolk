@@ -34,11 +34,15 @@ class menuOption {
 };
 
 class menu {
-  private:
-    vector<menuOption> menuOptions;
   public:
+    vector<menuOption> menuOptions;
     void addMenuOption(const menuOption& var) {
       menuOptions.push_back(var);
+    }
+    void printMenu() {
+      for (int i = 0; i < menuOptions.size(); i++) {
+        cout << menuOptions[i].getName() << menuOptions[i].getState() << endl;
+      } 
     }
 };
 
@@ -61,4 +65,30 @@ int main() {
 
   menuOption menu(false, "CurrentName: ", "Current State");
   cout << menu.getName() << menu.getState() << endl;
+
+
+  class menu exampleMenu;
+
+  menuOption option1(false, "Option One: ", "State");
+  menuOption option2(true, "Option Two: ", "false");
+  menuOption option3(true, "Option Three: ", "false");
+
+  exampleMenu.addMenuOption(option1);
+  exampleMenu.addMenuOption(option2);
+  exampleMenu.addMenuOption(option3);
+
+  exampleMenu.menuOptions[2].toggle();
+
+  exampleMenu.printMenu();
 }
+
+
+
+
+
+
+
+
+
+
+
