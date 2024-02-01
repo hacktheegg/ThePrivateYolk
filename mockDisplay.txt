@@ -2,6 +2,27 @@ U+2193 = ↓
 
 
 
+
+
+
+
+
+// initial open //
+  commands: help, exit, open, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // initial open //
   post1.Title
   post2.Title

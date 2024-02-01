@@ -34,11 +34,16 @@ class menuOption {
 };
 
 class menu {
+  private:
+    int pointer = 0;
+
   public:
     vector<menuOption> menuOptions;
+
     void addMenuOption(const menuOption& var) {
       menuOptions.push_back(var);
     }
+
     void printMenu() {
       for (int i = 0; i < menuOptions.size(); i++) {
         cout << menuOptions[i].getName() << menuOptions[i].getState() << endl;
@@ -80,6 +85,7 @@ int main() {
   exampleMenu.menuOptions[2].toggle();
 
   exampleMenu.printMenu();
+
 }
 
 
